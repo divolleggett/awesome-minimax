@@ -10,11 +10,11 @@
 
 ---
 
-> **MiniMax M2.7 is expected to release soon! This page tracks everything about the M2 series.**
+> 🔥 **MiniMax M2.7 is now available!** Self-evolving AI — 90% of Opus 4.6 quality at 7% cost. [Try on Atlas Cloud →](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-minimax)
 
 ---
 
-A curated list of resources, benchmarks, tools, and community projects related to the **MiniMax M2 series** of large language models — including M2, M2.1, M2.5, and the upcoming M2.7.
+A curated list of resources, benchmarks, tools, and community projects related to the **MiniMax M2 series** of large language models — including M2, M2.1, M2.5, and the latest **M2.7** (released March 18, 2026).
 
 ## Table of Contents
 
@@ -22,7 +22,7 @@ A curated list of resources, benchmarks, tools, and community projects related t
 - [M2 Series Evolution](#m2-series-evolution)
 - [Key Capabilities](#key-capabilities)
 - [Performance Benchmarks](#performance-benchmarks)
-- [What to Expect from M2.7](#what-to-expect-from-m27)
+- [M2.7 — What's New](#-m27--whats-new-released-march-18-2026)
 - [Try MiniMax on Atlas Cloud](#try-minimax-on-atlas-cloud)
 - [API Quick Start](#api-quick-start)
 - [Pricing](#pricing)
@@ -52,7 +52,7 @@ The M2 series has rapidly evolved through multiple iterations, each bringing sig
 | **M2** | Oct 2025 | First open-source release. MoE architecture with 230B/10B params. Strong baseline across reasoning, coding, and multilingual tasks. | Apache 2.0 |
 | **M2.1** | Dec 2025 | Enhanced multilingual support. Improved coding capabilities. Better instruction following and reduced hallucinations. | Apache 2.0 |
 | **M2.5** | Feb 2026 | SWE-Bench 80.2%, BrowseComp 76.3%. 37% faster inference than M2. State-of-the-art agent and tool-calling performance. | Apache 2.0 |
-| **M2.7** | Coming Soon | Expected improvements based on M2 trajectory. Further speed and capability gains anticipated. | TBA |
+| **M2.7** | Mar 2026 | 🔥 Self-evolution capability (100+ autonomous optimization rounds). SWE-Pro 56.22% (matches GPT-5.3-Codex). Hallucination reduced from -40 to +1 on AA-Omniscience. 97% skill compliance. 204K context. | Proprietary (API only) |
 
 ## Key Capabilities
 
@@ -100,29 +100,42 @@ Performance data for **MiniMax M2.5** (the current latest stable release):
 | M2.5 | **1.37x** | 37% faster than M2 |
 | M2.7 | TBD | Further improvements expected |
 
-## What to Expect from M2.7
+## 🔥 M2.7 — What's New (Released March 18, 2026)
 
-While MiniMax has not yet officially announced M2.7 specifications, we can make educated predictions based on the M2 series trajectory:
+M2.7 is the first model in the M2 series to deeply participate in its own evolution.
 
-### Progression Pattern
+### Self-Evolution — The Headline Feature
 
-Each version in the M2 series has brought measurable improvements:
+M2.7 ran **100+ scaffold optimization rounds autonomously** using the OpenClaw (Agent Harness) framework, achieving a **30% performance boost** without human intervention. It can automate **30-50% of reinforcement learning research workflows**, including experiment configuration, data pipeline management, and training code modification.
 
-- **M2 to M2.1**: Better multilingual support, improved coding, reduced hallucinations
-- **M2.1 to M2.5**: Major benchmark jumps (SWE-Bench 80.2%), 37% speed boost, agent capabilities
-- **M2.5 to M2.7**: Expected to continue this upward trend
+### Key Improvements over M2.5
 
-### What We Expect
+| Metric | M2.5 | M2.7 | Change |
+|--------|------|------|--------|
+| **SWE-Pro** | — | **56.22%** | Matches GPT-5.3-Codex |
+| **SWE-bench Verified** | 80.2% | **78%** | Comparable |
+| **AA-Omniscience (Hallucination)** | -40 | **+1** | Massive improvement |
+| **MM Claw (Skill Compliance)** | — | **97%** | 40+ complex skills |
+| **VIBE-Pro** | — | **55.6%** | Near Opus 4.6 |
+| **Terminal Bench 2** | — | **57.0%** | System-level understanding |
+| **Context Window** | 128K | **204K** | 60% larger |
+| **Max Output** | — | **131K** | — |
 
-Based on the established pattern and MiniMax CEO's public statements:
+### Cost vs Quality
 
-1. **Further Speed Improvements** — Each iteration has been faster. M2.7 may push beyond 130+ tokens/sec natively.
-2. **Stronger Coding Benchmarks** — SWE-Bench scores have climbed steadily. M2.7 could target 83%+ on SWE-Bench Verified.
-3. **Enhanced Agent Capabilities** — Tool calling and multi-step planning are a focus area for MiniMax.
-4. **Better Reasoning** — Improved chain-of-thought and mathematical reasoning.
-5. **M3 Stepping Stone** — MiniMax CEO confirmed M3 for H1 2026. M2.7 likely serves as a bridge, incorporating key architectural improvements planned for M3.
+M2.7 delivers **~90% of Claude Opus 4.6 quality at only 7% of the cost**, running 3x faster.
 
-> **M2.7 will be available on [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-minimax) upon release.** We'll update this page as soon as details are announced.
+| Model | Input/M tokens | Output/M tokens | SWE-Pro |
+|-------|---------------|----------------|---------|
+| **MiniMax M2.7** | **$0.30** | **$1.20** | **56.22%** |
+| Claude Opus 4.6 | $15.00 | $75.00 | ~56% |
+| GPT-5.3-Codex | — | — | 56.22% |
+
+### Supported Integrations (11+ tools)
+
+M2.7 works with: **Claude Code**, **Cursor**, **OpenClaw**, **Cline**, **Roo Code**, **Kilo Code**, **Codex CLI**, **TRAE**, **Zed**, **Droid**, **Grok CLI**, **OpenCode**
+
+> 🚀 **M2.7 is available now on [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-minimax)** — model ID: `minimaxai/minimax-m2.7`
 
 ## Try MiniMax on Atlas Cloud
 
@@ -275,9 +288,9 @@ Yes. MiniMax M2, M2.1, and M2.5 are all released under the **Apache 2.0 license*
 
 M2.5 achieves **80.2% on SWE-Bench Verified**, which is competitive with or exceeds GPT-4o on real-world software engineering tasks. At $0.27/$0.95 per million tokens, it's roughly **10x cheaper** for comparable coding quality.
 
-### When will M2.7 be released?
+### Is M2.7 available now?
 
-No official release date has been announced. Based on the cadence of previous releases (Oct 2025, Dec 2025, Feb 2026), M2.7 could arrive in **Q2 2026**. We'll update this page as soon as we have official information.
+Yes! M2.7 was released on **March 18, 2026**. It's available via [Atlas Cloud](https://www.atlascloud.ai?utm_source=github&utm_campaign=awesome-minimax) (model ID: `minimaxai/minimax-m2.7`), MiniMax Platform, and OpenRouter. Its headline feature is **self-evolution** — the model autonomously ran 100+ optimization rounds, achieving 30% performance gains without human intervention.
 
 ### Can I use MiniMax M2 with existing OpenAI code?
 
